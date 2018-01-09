@@ -179,11 +179,16 @@ footer {
 		text-align: center;
 	}
 
-	footer p {
+footer p {
 		letter-spacing: 0;
 		font-size: 0.75rem;
 		margin-bottom: 1.5em;
 	}
+
+.social{
+	height: 2rem;
+	width: 2rem;
+}
 
 @media (min-width: 35em){
 
