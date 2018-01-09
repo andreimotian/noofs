@@ -90,6 +90,23 @@ main img {
 	display: none;
 }
 
+h3 {
+	font-family: montserrat-light;
+	text-align: center;
+	margin: 1em;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: montserrat-light;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+}
+
 @-moz-keyframes spin {
     from { -moz-transform: rotate(0deg); }
     to { -moz-transform: rotate(360deg); }
