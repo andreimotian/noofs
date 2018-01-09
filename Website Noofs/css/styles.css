@@ -136,6 +136,55 @@ p {
   -o-transition: rotate(3600deg);
 }
 
+.aboutnoofs {
+font-size: 1rem;
+letter-spacing: 0;
+text-transform: none;
+margin: 2em;
+}
+
+.contactgegevens{
+	text-align: center;
+	font-family: montserrat;
+	margin: 2em;
+}
+
+.contactgegevens a {
+	text-decoration: none;
+	color: black;
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.contactgegevens p {
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+footer h1 {
+	font-family: didot;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+footer a {
+	text-decoration: none;
+	font-family: montserrat;
+	color: red;
+	}
+
+footer {
+		text-align: center;
+	}
+
+	footer p {
+		letter-spacing: 0;
+		font-size: 0.75rem;
+		margin-bottom: 1.5em;
+	}
+
 @media (min-width: 35em){
 
 	.phone {
@@ -171,5 +220,15 @@ p {
 		margin: 1.5em;
 		height: 15rem;
 		width: auto;
+	}
+
+	.over {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.aboutnoofs {
+		margin: auto;
+		padding: 2rem;
 	}
 }
