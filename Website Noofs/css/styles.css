@@ -36,6 +36,16 @@ ol, ul {
 }
 
 /*eigen css*/
+@font-face {
+	font-family: montserrat;
+	src: url("../assets/fonts/Montserrat-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: montserrat-light;
+	src: url("../assets/fonts/Montserrat-Light.otf") format("opentype");
+}
+
 header h1 {
   font-family: didot;
   text-align: center;
